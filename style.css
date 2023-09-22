@@ -1,0 +1,587 @@
+
+*{
+    padding: auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #fffAE7;
+    overflow-x: hidden;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+li{
+    list-style: none;
+}
+
+.navlink{
+    display: flex;
+    justify-content: space-around;
+}
+
+.landify{
+    margin: 10px;
+    font-weight: bolder;
+}
+
+#subButton{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.istcontainer{
+    display: grid;
+    grid-template-columns: 80% 10%;
+}
+
+.istconheader{
+    font-size: 50px;
+    margin-left: 80px;
+}
+.pretextheader{
+     margin-left: 80px;
+     margin-top: -23px;
+}
+
+.istconheader2{
+    border: 1px black solid;
+    width: 210%;
+    height: 400px;
+    background-color: black;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px 2px #959494;
+}
+/* ///////////////////////cirles///////////// */
+ .circle-container {
+            position: relative;
+            left: -120px;
+            bottom: -70px;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-image: url('image/istockphoto-1415234168-612x612.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .top-left-square {
+            width: 55px;
+            height: 40px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 2px;
+            font-weight: bold;
+             border-radius: 10px;
+        }
+
+        .bottom-right-square {
+            width: 55px;
+            height: 40px;
+            background-color: white;
+            color: black;
+            text-align: center;
+            position: absolute;
+            bottom: 70px;
+            right: -30px;
+            padding: 3px;
+            font-weight: bold;
+             border-radius: 10px;
+
+        }
+
+        .bottom-left-rectangle {
+            width: 175px;
+            height: 20px;
+            background-color: white;
+            color: black;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            left: -50px;
+            display: flex;
+            align-items: center;
+            font-size: small;
+            padding: 5px;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+
+        .text {
+            margin-left: 5px;
+            margin-top: -20px;
+
+        }
+
+        .circle-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        /* ///////////////////// */
+        .headerButton{
+          display: inline-flex;
+          gap: 20px;
+        }
+
+         .getstarted {
+           padding: 10px;
+           border-radius: 5px;
+           border: none;
+           margin-left: 80px;
+           background-color: #FFB3A7;
+           color: black;
+           font-weight: bolder;
+        }
+/* ARROW */
+ .twisted-arrow {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 30px 0 30px 50px;
+            border-color: transparent transparent transparent #FFB3A7;
+            transform: rotate(45deg);
+            position: relative;
+            right: -600px;
+            bottom: 300px;
+        }
+        .twisted-arrow2{
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 20px 0 20px 20px;
+            border-color: transparent transparent transparent #FFB3A7;
+            transform: rotate(45deg);
+            position: relative;
+            left: 20px;
+            bottom: 300px;
+        }
+
+        .twisted-arrow2i{
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 20px 0 20px 20px;
+            border-color: transparent transparent transparent #FFB3A7;
+            transform: rotate(45deg);
+            position: relative;
+            left: 300px;
+            top: -650px;
+        }
+
+        .twisted-arrow3 {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 50px 50px 30px;
+            border-color: transparent transparent transparent #345A43;
+            transform: rotate(50deg);
+            position: relative;
+            right: -1150px;
+            bottom: 550px;
+        }
+        .twisted-arrow1{
+             width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 30px 0 30px 50px;
+            border-color: transparent transparent transparent #000000;
+            transform: rotate(5deg);
+            position: relative;
+            right: -600px;
+            bottom: 100px;
+        }
+        .twisted-arrow1i{
+             width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 15px 0 20px 50px;
+            border-color: transparent transparent transparent #E5C268;
+            transform: rotate(-120deg);
+            position: relative;
+            right: -990px;
+            bottom: -795px;
+            z-index: 1;
+            }
+        /* ////////////////////////////////second section//////////////// */
+
+        .secheader{
+            font-size: 30px;
+        }
+        .secheader, .sectext{
+            text-align: center;
+        }
+        /* //////small cirlce////// */
+             /* Define a class for the grid container */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            position: relative;
+            left: 120px;
+            padding: 20px;
+        }
+        
+
+        /* Define a class for the colored circles */
+        .circle1, .circle2, .circle3, .circle4{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        /* Apply different colors to each circle */
+
+        .circle1{
+            background-color: #B3E0C5;
+        }
+
+        .circle2 {
+            background-color: #EBDCA8;
+        }
+
+        .circle3 {
+            background-color: #C69E97;
+        }
+
+        .circle4 {
+            background-color: #E7E7E7;
+        }
+
+
+        .circle2, .circle4, .circle-text2, .circle-text4{
+            position: relative;
+            top: 50px;
+        }
+        /*////////// The long thread!////////////////// */
+        .thread {
+    width: 100px; 
+    height: 2px;
+    background-color: #FFB3A7; /* Color of the thread */
+    position: relative;
+    right: -700px;
+    top: 30px;
+    transform: rotate(30deg);
+}
+
+.thread::before,
+.thread::after {
+    content: "";
+    position: absolute;
+    width: 10px; 
+    height: 10px; 
+    background-color: purple;
+    border-radius: 30%;
+}
+
+.thread::before {
+    top: -5px;
+    left: -5px;
+}
+
+.thread::after {
+    top: -5px;
+    right: -5px;
+}
+
+/* ///////////The rectangle////////////// */
+
+.container_rect {
+    position: relative;
+    padding: 50px;
+    left: 200px;
+}
+
+.left-side {
+    padding: 20px;
+    position: relative;
+}
+
+.left-side img {
+    width: 230px;
+    height: 320px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    bottom: 0;
+    left: 35px;
+    right: 0;
+}
+
+.right-side {
+    width: 65%;
+    border-radius: 10px;
+    background-color: #1A1A1F;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 2px #959494
+}
+
+.rect_text{
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    left: 300px;
+    text-align: justify;
+}
+
+.h1_rect {
+    font-size: 30px;
+    margin: 0;
+}
+
+.p_rect {
+   font-size: 13px;
+}
+
+.btn_rect {
+    padding: 10px 20px;
+    background-color: #FEB2A6;
+    color: #1A1A1F;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* /////////fourth section/////////// */
+.col_container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+     grid-row-gap: 1em; 
+     margin-left: 110px;
+}
+
+
+.block1, .block2, .block3, .block4, .block5, .block6{
+    width: 75%;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow:2px 2px 2px 2px #959494;
+}
+.block1{
+    background-color: #FFEFB6;
+}
+.block2{
+    background-color: #B3E0C5;
+}
+.block3{
+    background-color: #FFCBC2;
+}
+.block4{
+    background-color: #FFCBC2;
+}
+.block5{
+    background-color: #FFEFB6;
+}
+.block6{
+    background-color: #B3E0C5;
+}
+
+.block1, .block2, .block3, .block4, .block5, .block6 h5{
+text-align: center;
+
+}
+
+.block_text{
+color: #6c6b68;
+text-align: center;
+padding: 0 15px;
+}
+
+.block_btn{
+color: #1A1A1F;
+font-weight: bolder;
+padding: 7px;
+width: 70%;
+border-radius: 5px;
+border: 1px #ffffff solid;
+background-color: #ffffff;
+}
+
+.block_btn6{
+color: #1A1A1F;
+font-weight: bolder;
+padding: 7px;
+width: 70%;
+border-radius: 5px;
+margin-left: 47px;
+border: 1px #ffffff solid;
+background-color: #ffffff;
+}
+
+/* thread for section four */
+        .thread1 {
+    width: 100px; 
+    height: 2px;
+    background-color: #FFB3A7; /* Color of the thread */
+    position: relative;
+    left: 200px;
+    bottom: -430px;
+    transform: rotate(35deg);
+}
+
+.thread1::before,
+.thread1::after {
+    content: "";
+    position: absolute;
+    width: 10px; 
+    height: 10px; 
+    background-color: purple;
+    border-radius: 30%;
+}
+
+.thread1::before {
+    top: -5px;
+    left: -5px;
+}
+
+.thread1::after {
+    top: -5px;
+    right: -5px;
+}
+
+/* ////////////The fiveth section ///////////*/
+
+ .sec_5_container{
+    padding: 65px;
+    margin-left: 50px;
+}
+
+.sec_5_header{
+    font-size: 35px;
+}
+
+.sec_5_text{
+    color: #6c6b68;
+}
+
+/* /////////// div_col_5 ////////////// */
+.div_col_5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    margin-left: 170px;
+    margin-top: -50px;
+}
+
+.div_col_5i{
+    display: grid;
+    gap: 5px;
+}
+
+.div_col_A, .div_col_B, .div_col_C, .div_col_D, .div_col_E{
+    border: 1px solid #6c6b68;
+    padding: 15px;
+    width: 85%;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.div_col_B, .div_col_D, .div_col_E, .div_col_A{
+    height: 30px;
+}
+
+.bx-plus{
+    float: right;
+}
+small{
+    color: #6c6b68;
+    font-weight: 500;
+}
+
+/* //////////////The six section//////////// */
+
+.sec_6{
+    margin-top: 130px;
+    border: 1px solid black;
+    height: 300px;
+    background-color: #1A1A1F;
+}
+
+.col_sec_6{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+ul{
+    margin-left: -40px;
+}
+.landify_footer{
+    font-weight: bolder;
+}
+
+.btn_footer{
+    background-color: #FEB2A6;
+    padding: 5px;
+    border: none;
+    width: 25%;
+    border-radius: 3px;
+    color: #1A1A1F;
+    font-weight: bolder;
+}
+
+/* last green angle */
+.last_green_angle1{
+             width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 30px 0 30px 50px;
+            border-color: transparent transparent transparent #B3E0C5;
+            transform: rotate(60deg);
+            position: relative;
+            right: -100px;
+            bottom: -1545px;
+            z-index: -1;
+        }
+
+        .last_green_angle2{
+             width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 30px 0 30px 50px;
+            border-color: transparent transparent transparent #1A1A1F;
+            transform: rotate(60deg);
+            position: relative;
+            right: -1160px;
+            bottom: -1850px;
+        }
+
+
+
+
+
+        
+
+
